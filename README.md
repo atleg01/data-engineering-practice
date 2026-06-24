@@ -1,9 +1,9 @@
 # Data Engineering Practice
 
-A collection of beginner data engineering projects built while completing my DataCamp Data Engineering certification. Each notebook focuses on practicing real data handling skills — cleaning, transforming, aggregating, and visualizing data using Python and pandas.
+A collection of beginner data engineering projects built while completing my DataCamp Data Engineering certification. Each notebook focuses on practicing real data handling skills cleaning, transforming, aggregating, and visualizing data using Python and pandas.
 
 ## About me
-I'm transitioning into data engineering from a finance/HR background (Benefits Specialist) This repo documents my hands-on practice as I build toward a junior data engineering role.
+I'm transitioning into data engineering from a finance/HR background (Benefits Specialist) This repo documents my hands on practice as I build toward a junior data engineering role.
 
 ---
 
