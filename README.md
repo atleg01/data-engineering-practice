@@ -5,8 +5,6 @@ A collection of beginner data engineering projects built while completing my Dat
 ## About me
 I'm transitioning into data engineering from a finance/HR background (Benefits Specialist) This repo documents my hands on practice as I build toward a junior data engineering role.
 
----
-
 ## 📁 Projects
 
 ### 1. Netflix Movies and TV Shows — Data Exploration
@@ -22,7 +20,6 @@ A data cleaning and exploration project using the Netflix Movies and TV Shows da
 **Tools:** Python, pandas
 **Dataset:** [Netflix Movies and TV Shows — Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 
----
 
 ### 2. COVID-19 Global Case Analysis
 A time-series analysis project exploring global COVID-19 case data, with a focus on South Africa.
@@ -40,5 +37,24 @@ A time-series analysis project exploring global COVID-19 case data, with a focus
 ## 🛠 Skills practiced across this repo
 Data cleaning · Filtering · Sorting · GroupBy aggregation · Datetime handling · Derived columns · Data visualization · Basic ETL workflow
 
-## 📈 More projects coming soon
-This repo is actively growing as I continue practicing daily.
+### 3. Online Retail — Data Cleaning and Revenue Analysis
+A data cleaning and business analysis project using a real UK-based 
+e-commerce transaction dataset with over 500,000 rows.
+
+**What it covers:**
+- Loading and inspecting a large real-world retail dataset
+- Removing missing CustomerIDs to retain only trackable transactions
+- Filtering out returns and negative quantities for accurate analysis
+- Engineering a new `TotalPrice` column (Quantity × UnitPrice)
+- Answering real business questions using groupby aggregation:
+  - Which country generates the most revenue?
+  - What are the top 10 best-selling products?
+- Visualising top 10 countries by revenue with a bar chart
+- Exporting the cleaned dataset as a new CSV file
+
+**Tools:** Python, pandas, matplotlib
+**Dataset:** [Online Retail Dataset — Kaggle](https://www.kaggle.com/datasets/carrie1/ecommerce-data)
+
+**Key finding:** The UK dominates revenue as expected for a 
+UK-based retailer, with PAPER CRAFT, LITTLE BIRDIE emerging 
+as the top-selling product by volume.
