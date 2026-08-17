@@ -58,3 +58,25 @@ e-commerce transaction dataset with over 500,000 rows.
 **Key finding:** The UK dominates revenue as expected for a 
 UK-based retailer, with PAPER CRAFT, LITTLE BIRDIE emerging 
 as the top-selling product by volume.
+
+### 4. Pretoria Weather API Pipeline — JSON & Requests Practice
+A data engineering project focused on extracting live weather data 
+from a public API using Python, practising core API and JSON handling 
+skills.
+
+**What it covers:**
+- Encoding and decoding JSON using `json.dumps()` and `json.loads()`
+- Calling a live REST API using the `requests` library with proper headers
+- Decoding JSON API responses using the `.json()` method
+- Sending JSON data using `requests.post()` with the `json=` argument
+- Converting live API response data into a pandas DataFrame
+- Cleaning and inspecting real-world weather data
+- Saving extracted and transformed data to CSV — completing a full 
+  Extract, Transform, Load workflow
+
+**Tools:** Python, pandas, requests, json
+**Data source:** Open-Meteo Weather API (live Pretoria forecast data)
+
+**Key learning:** This project marks the transition from static 
+CSV datasets to live API data extraction — a core data engineering 
+skill for building real-world pipelines.
